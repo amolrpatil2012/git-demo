@@ -9,7 +9,7 @@ public class App
     public static void helloWorld ( String name )
     {
         if ( name.equalsIgnoreCase("Rohit"))
-            System.out.println("Hi " + name);
+            System.out.println("Hi " + Constants.name);
         else
             System.out.println( " Hello " + name );
     }
