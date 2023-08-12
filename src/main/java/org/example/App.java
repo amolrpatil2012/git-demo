@@ -8,7 +8,10 @@ public class App
 {
     public static void helloWorld ( String name )
     {
-        System.out.println( " Hello " + name );
+        if ( name.equalsIgnoreCase("Rohit"))
+            System.out.println("Hi " + name);
+        else
+            System.out.println( " Hello " + name );
     }
     public static void main( String[] args )
     {
